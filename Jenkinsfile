@@ -4,7 +4,7 @@ stages{
 stage('Non-Parallel Stage')
 {
 agent {
-lable 'master'
+label 'master'
 }
 steps{
 echo "This stage will be executed first" ;
